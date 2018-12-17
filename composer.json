@@ -1,0 +1,15 @@
+{
+  "type": "composer-plugin",
+  "name": "d3/confirmcomposerpackage",
+  "require": {
+    "composer-plugin-api": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "D3\\confirmComposerPackage\\": "src"
+    }
+  },
+  "extra": {
+    "class": "D3\\confirmComposerPackage\\Plugin"
+  }
+}
